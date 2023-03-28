@@ -15,11 +15,11 @@ workbox-window for registering a service worker and handling updates in the wind
 2) Méthodes de cache et utilisations possibles
 https://developer.chrome.com/docs/workbox/modules/workbox-strategies/
 Méthode de cache :
--Stale-While-Revalidate
--Cache First (Cache Falling Back to Network)
--Network First (Network Falling Back to Cache)
--Network Only
--Cache Only
+  -Stale-While-Revalidate
+  -Cache First (Cache Falling Back to Network)
+  -Network First (Network Falling Back to Cache)
+  -Network Only
+  -Cache Only
 Utilisation possible:
 Cache sur des requete API en offline 
 Cache sur des informations lourdes avec expiration pour resynchroniser ( provenant d’une base de donnée par exemple)
