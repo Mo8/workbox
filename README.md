@@ -37,3 +37,18 @@ Cache sur des informations lourdes avec expiration pour resynchroniser ( provena
 cache des données en networkfirst pour la liste des rdvs et en cache first pour les assets + html + css
 
 lors d'une prise de rdv client, on peut effectué une action ( par exemple envoyé une push notification au doctor lié au rdv)
+
+II - Page d'incitation à l'installation de PWA
+1 ) Créer un composant (React / Vue / angular / HTML+CSS) pour inciter et surtout guider un utilisateur à installer la PWA
+
+https://fr.goodbarber.com/blog/pwa-compatibilite-des-fonctionnalites-des-applications-en-fonction-des-navigateurs-a856/
+
+https://whatwebcando.today/
+
+- navigateur nécessaire
+- compatibilité du device
+- capacités supplémentaires, etc...
+2 ) Expliquer en quoi il serait interessant de mettre en place une telle page
+
+Il serait intéressant de mettre une tels page pour que les utilisateurs ne connaissant pas les fonctionnalité puissent comprendre le confort fournis par les PWA et cela permet d’avoir potentiellement une optimisation du site, et indique si le navigateur est viable pour notre site
+
